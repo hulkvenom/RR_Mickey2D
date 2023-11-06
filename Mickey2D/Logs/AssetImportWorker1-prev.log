@@ -15,7 +15,7 @@ D:/Profile Redirect/reross1/Desktop/RR_Mickey2D/Mickey2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53493
+56321
 Successfully changed project path to: D:/Profile Redirect/reross1/Desktop/RR_Mickey2D/Mickey2D
 D:/Profile Redirect/reross1/Desktop/RR_Mickey2D/Mickey2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Profile Redirect/reross1/Desktop/RR_Mickey2D/Mickey2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42244] Host "[IP] 10.40.14.19 [Port] 0 [Flags] 2 [Guid] 3708678984 [EditorId] 3708678984 [Version] 1048832 [Id] WindowsEditor(7,AD400-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30740] Host "[IP] 10.40.14.19 [Port] 0 [Flags] 2 [Guid] 3737149126 [EditorId] 3737149126 [Version] 1048832 [Id] WindowsEditor(7,AD400-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [42244] Host "[IP] 10.40.14.19 [Port] 0 [Flags] 2 [Guid] 3708678984 [EditorId] 3708678984 [Version] 1048832 [Id] WindowsEditor(7,AD400-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30740] Host "[IP] 10.40.14.19 [Port] 0 [Flags] 2 [Guid] 3737149126 [EditorId] 3737149126 [Version] 1048832 [Id] WindowsEditor(7,AD400-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 18.27 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013909 seconds.
-- Loaded All Assemblies, in  0.566 seconds
+Registered in 0.013096 seconds.
+- Loaded All Assemblies, in  0.584 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 968ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
+	RebuildCommonClasses (53ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (166ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (200ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (212ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (405ms)
+	FinalizeReload (424ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (312ms)
+		SetupLoadedEditorAssemblies (329ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 968ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.135 seconds
-Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.190 seconds
+Refreshing native plugins compatible for Editor in 7.35 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.069 seconds
-Domain Reload Profiling: 2199ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  1.244 seconds
+Domain Reload Profiling: 2423ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (748ms)
-		LoadAssemblies (521ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (803ms)
+		LoadAssemblies (554ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (274ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (285ms)
 			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1069ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (798ms)
+		SetupLoadedEditorAssemblies (973ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (514ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (662ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 8.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5632 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (0.9 MB). Loaded Objects now: 6077.
-Memory consumption went from 211.7 MB to 210.8 MB.
-Total: 6.984800 ms (FindLiveObjects: 0.616700 ms CreateObjectMapping: 0.487000 ms MarkObjects: 5.138700 ms  DeleteObjects: 0.741100 ms)
+Unloading 6013 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (0.9 MB). Loaded Objects now: 6459.
+Memory consumption went from 220.6 MB to 219.7 MB.
+Total: 7.783800 ms (FindLiveObjects: 0.651900 ms CreateObjectMapping: 0.481300 ms MarkObjects: 6.019600 ms  DeleteObjects: 0.629700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,12 +181,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 10.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 154.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (0.9 MB). Loaded Objects now: 6077.
-Memory consumption went from 104.7 MB to 103.8 MB.
-Total: 6.115900 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.404700 ms MarkObjects: 4.651200 ms  DeleteObjects: 0.481000 ms)
+Unloading 17 unused Assets / (0.9 MB). Loaded Objects now: 6459.
+Memory consumption went from 107.2 MB to 106.4 MB.
+Total: 7.659600 ms (FindLiveObjects: 0.681500 ms CreateObjectMapping: 0.478900 ms MarkObjects: 5.935200 ms  DeleteObjects: 0.562600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -202,192 +202,5 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1431534.683952 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn002.jpg
-  artifactKey: Guid(95af4b837c2adb6428badd4582f4e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn002.jpg using Guid(95af4b837c2adb6428badd4582f4e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333e248cdac991d8ca5d0b1aca9daca') in 0.159229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn022.jpg
-  artifactKey: Guid(77c26c3bf3619b74e92385ba5d8c29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn022.jpg using Guid(77c26c3bf3619b74e92385ba5d8c29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89472416315815c2af1bd7e6c95aac1') in 0.020484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn034.jpg
-  artifactKey: Guid(b3b8306e45a093e4399ba71aa50ecf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn034.jpg using Guid(b3b8306e45a093e4399ba71aa50ecf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598bb87c6eea382bcb8ce429ef46129f') in 0.023463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn026.jpg
-  artifactKey: Guid(99fabcf4c4504404fae148f4afa09df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn026.jpg using Guid(99fabcf4c4504404fae148f4afa09df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da492f9c07c26b50b4f74893b0a9f0d') in 0.021560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn017.jpg
-  artifactKey: Guid(a3b9b43f7341fe946a37aef59d084abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn017.jpg using Guid(a3b9b43f7341fe946a37aef59d084abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de2a474e700a6656d1182d9694980bb') in 0.024304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn047.jpg
-  artifactKey: Guid(f4524bf265eec524d9d70aa6e0b3221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn047.jpg using Guid(f4524bf265eec524d9d70aa6e0b3221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b35e46ef5110ae5b5b58ac437640d') in 0.024380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn025.jpg
-  artifactKey: Guid(3825ecfc0479bb0478571761b5f1c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn025.jpg using Guid(3825ecfc0479bb0478571761b5f1c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f080a15dbcaaff38504d654ad65fe3') in 0.022706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn009.jpg
-  artifactKey: Guid(4d54a84b1154def4e97486a14065efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn009.jpg using Guid(4d54a84b1154def4e97486a14065efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6cea7e0a072da3d5c934e47790e1fe') in 0.038128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn010.jpg
-  artifactKey: Guid(ba0695e90f1b7a14e9c62d566befa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn010.jpg using Guid(ba0695e90f1b7a14e9c62d566befa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0094ccb99067abf201db167cf04d73') in 0.024536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn021.jpg
-  artifactKey: Guid(22101ad0187d0404cbd2b4157345ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn021.jpg using Guid(22101ad0187d0404cbd2b4157345ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45f49addebee91cdc81997a0f6fdddc') in 0.022864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn038.jpg
-  artifactKey: Guid(9237d200ac4bb9d4091c41515a955931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn038.jpg using Guid(9237d200ac4bb9d4091c41515a955931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2d8f488f86f2d454efadccdefd511a') in 0.020741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn007.jpg
-  artifactKey: Guid(eacff82e371800d4a9848a009f105b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn007.jpg using Guid(eacff82e371800d4a9848a009f105b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955180793165d128c9318ca892ca685d') in 0.021815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn046.jpg
-  artifactKey: Guid(2d256bba97e69bb4ca8486a5e83830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn046.jpg using Guid(2d256bba97e69bb4ca8486a5e83830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1427089d83d3bbafe03da92af7c06a4') in 0.021855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn012.jpg
-  artifactKey: Guid(3bba108c59cce0247a9827df741c001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn012.jpg using Guid(3bba108c59cce0247a9827df741c001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6978d3e0338a553882619aed0a545a') in 0.021517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn006.jpg
-  artifactKey: Guid(64720e76b3915c94c991d0a69302f149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn006.jpg using Guid(64720e76b3915c94c991d0a69302f149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c13d7d9eea5f98b6eb8b049be2d3c29') in 0.018518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn036.jpg
-  artifactKey: Guid(4cfad78f453d28a42b737a1eb9e4d99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn036.jpg using Guid(4cfad78f453d28a42b737a1eb9e4d99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cfc9144f2d2605060487ab46f111b2') in 0.021548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn020.jpg
-  artifactKey: Guid(7208c07e19d3cf445a635398f57f7ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn020.jpg using Guid(7208c07e19d3cf445a635398f57f7ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958235b7f988c748da2894c14e36dfb1') in 0.018887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn004.jpg
-  artifactKey: Guid(a52ebec5761200d4aa2600c6df1b0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn004.jpg using Guid(a52ebec5761200d4aa2600c6df1b0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7237d46a889de4045ba8b5e4d9de5505') in 0.023209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn019.jpg
-  artifactKey: Guid(26396febf26d59e41a37ebeed7f76e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn019.jpg using Guid(26396febf26d59e41a37ebeed7f76e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa15d22a43c2b01e8e4080009de42f1') in 0.019096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn030.jpg
-  artifactKey: Guid(30fa7ef917383dc468916d7a7d264fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn030.jpg using Guid(30fa7ef917383dc468916d7a7d264fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ce67edd09eb460e636daa6cadb1baa') in 0.020409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn042.jpg
-  artifactKey: Guid(bc50760369e9f2f4799be57216642f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn042.jpg using Guid(bc50760369e9f2f4799be57216642f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f89ce39f266651d425e54a1feb80e6') in 0.020862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn027.jpg
-  artifactKey: Guid(db61d0d56fb2b264b8689235fa456fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn027.jpg using Guid(db61d0d56fb2b264b8689235fa456fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b900225d775070710f48031efa9893ff') in 0.020883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/_MyFiles/LevelPlatforms/tn031.jpg
-  artifactKey: Guid(820873bb7c3e79b4ca06cc4e51c2f299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyFiles/LevelPlatforms/tn031.jpg using Guid(820873bb7c3e79b4ca06cc4e51c2f299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d22e85ca159af782dcfa4c3a6cc173b') in 0.021950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
