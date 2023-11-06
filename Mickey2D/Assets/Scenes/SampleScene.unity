@@ -342,6 +342,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1409314071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409314072}
+  m_Layer: 0
+  m_Name: groundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409314072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409314071}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.09100008, y: -1.1150002, z: 0.030068677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094793857}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1664458769
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +384,7 @@ GameObject:
   - component: {fileID: 1664458771}
   - component: {fileID: 1664458770}
   - component: {fileID: 1664458772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: w
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +637,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b6c1e94b4252d644bb895cf9739e4390, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 230c33283dd314c4f8f7ba438ea099e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -650,7 +681,8 @@ Transform:
   m_LocalPosition: {x: -7.41, y: -3.35, z: 0.042603683}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1409314072}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2094793858
@@ -665,7 +697,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04dc840b644179749b68ff6332e3e346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 300
+  jumpForce: 6
+  groundCheck: {fileID: 1409314072}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   playerRB: {fileID: 2094793854}
   animator: {fileID: 2094793856}
 --- !u!1660057539 &9223372036854775807
