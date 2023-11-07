@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
                 numberOfJumps++;
-
+                animator.Play("Jump");
             }
         }
         
