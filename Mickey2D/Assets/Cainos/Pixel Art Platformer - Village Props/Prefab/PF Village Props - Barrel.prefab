@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2018365450437254147}
   - component: {fileID: 2018365450437254146}
   - component: {fileID: 1515793881361588757}
-  - component: {fileID: 2213089068918022443}
   m_Layer: 6
   m_Name: PF Village Props - Barrel
   m_TagString: Untagged
@@ -139,30 +138,3 @@ PolygonCollider2D:
       - {x: 0.2591324, y: 0.039488852}
       - {x: 0.38846207, y: 0.26905727}
   m_UseDelaunayMesh: 0
---- !u!50 &2213089068918022443
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2018365450437254144}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 20
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
