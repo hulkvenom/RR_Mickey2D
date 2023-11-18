@@ -12,5 +12,7 @@ public class PlayerCollision : MonoBehaviour
             PlayerManager.isGameOver = true;
             gameObject.SetActive(false);
         }
+
+        
     }
 }
