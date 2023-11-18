@@ -9,8 +9,8 @@ public class Parallax : MonoBehaviour
     public Transform sideBG;
 
     public float length = 36.8f;
-  
-   
+
+    
 
     // Update is called once per frame
     void Update()

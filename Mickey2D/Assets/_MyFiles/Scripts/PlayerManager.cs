@@ -10,7 +10,8 @@ public class PlayerManager : MonoBehaviour
     public static Vector2 lastCheckPointPos = new Vector2 (-17,-3);
 
     private void Awake()
-    {     
+    {
+        
         isGameOver = false;
         GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
