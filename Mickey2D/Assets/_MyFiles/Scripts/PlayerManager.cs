@@ -6,7 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static bool isGameOver;
     public GameObject gameOverScreen;
-    public AudioSource steamboat;
+   
     public static Vector2 lastCheckPointPos = new Vector2 (-17,-3);
 
     private void Awake()
@@ -20,7 +20,7 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        steamboat.Play();
+       
     }
 
     // Update is called once per frame
@@ -30,12 +30,15 @@ public class PlayerManager : MonoBehaviour
         if(isGameOver)
         {
             gameOverScreen.SetActive(true);
-            steamboat.Stop();
+            
         }
     }
 
     public void ReplayLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("clicked");
+        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
+        gameOverScreen.SetActive(false);
+        isGameOver = false;
     }
 }

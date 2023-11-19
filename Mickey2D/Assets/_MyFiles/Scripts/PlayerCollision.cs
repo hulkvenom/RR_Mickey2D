@@ -12,7 +12,7 @@ public class PlayerCollision : MonoBehaviour
         {
             Debug.Log("died");
             PlayerManager.isGameOver = true;
-            gameObject.SetActive(false);
+            
         }
 
         
