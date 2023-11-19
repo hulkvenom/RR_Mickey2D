@@ -6,6 +6,10 @@ TagManager:
   tags:
   - DeathBox
   - Checkpoint1
+  - Teleport2
+  - Parallax1
+  - Parallax2
+  - Parallax3
   layers:
   - Default
   - TransparentFX
