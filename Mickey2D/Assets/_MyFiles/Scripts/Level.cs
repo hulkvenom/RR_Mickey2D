@@ -10,12 +10,13 @@ public class Level : MonoBehaviour
     [SerializeField] Animator transitionAnim;
     
     public Transform startPosition;
-    
+    public GameObject teleport3;
     public Transform teleportLocation;
    
     private void Awake()
     {
-        
+        teleport3 = GameObject.FindGameObjectWithTag("Teleport3");
+        teleport3.GetComponent<Level3>().enabled = false;
 
     }
     void Update()
@@ -27,9 +28,10 @@ public class Level : MonoBehaviour
         else if (remainingTime < 0)
         {
             remainingTime = 0;
-            timerText.color = Color.red;
             GameObject.FindGameObjectWithTag("Player").transform.position = startPosition.position;
-            remainingTime = 60;
+            remainingTime = 60;           
+            PlayerPrefs.DeleteAll();
+
         }
 
         int minutes = Mathf.FloorToInt(remainingTime / 60);
@@ -55,10 +57,10 @@ public class Level : MonoBehaviour
             player.transform.position = teleportLocation.position;
         }
         remainingTime = 60;
-
-        
+        teleport3.GetComponent<Level3>().enabled = true;
         transitionAnim.SetTrigger("Start");
         yield return new WaitForSeconds(1);
+        Destroy(this.gameObject);
         
 
     }

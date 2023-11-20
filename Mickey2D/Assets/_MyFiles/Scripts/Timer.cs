@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
             PlayerManager.isGameOver = true;
             GameObject.FindGameObjectWithTag("Player").transform.position = startPosition.position;
             remainingTime = 60;
-            timerText.color = Color.white;
+            PlayerPrefs.DeleteAll();
         }
 
         int minutes = Mathf.FloorToInt(remainingTime / 60);

@@ -10,6 +10,7 @@ TagManager:
   - Parallax1
   - Parallax2
   - Parallax3
+  - Teleport3
   layers:
   - Default
   - TransparentFX
