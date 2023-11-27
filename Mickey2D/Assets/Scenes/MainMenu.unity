@@ -529,8 +529,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 757.7422, y: 135.5056}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_SizeDelta: {x: 1110.5559, y: 214.1326}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &357716429
 MonoBehaviour:
@@ -554,7 +554,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Controls: Wasd - move
 
-    spacebar - jump'
+    spacebar - jump
+
+    SpaceBar X2 = DoubleJump'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b1d24de4862b443a3983b702a8b8c2, type: 2}
   m_sharedMaterial: {fileID: 9069295518905737624, guid: c0b1d24de4862b443a3983b702a8b8c2, type: 2}
@@ -926,7 +928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.72429633}
   m_AnchorMax: {x: 0, y: 0.72429633}
-  m_AnchoredPosition: {x: 0.000061035156, y: 2.8399963}
+  m_AnchoredPosition: {x: 0, y: 2.8399658}
   m_SizeDelta: {x: 160.48242, y: 144.3537}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1578844869
